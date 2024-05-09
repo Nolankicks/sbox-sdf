@@ -67,6 +67,7 @@ namespace Sandbox.Sdf
 			ISdf3D.RegisterType( IntersectedSdf3D<ISdf3D, ISdf3D>.ReadRaw );
 			ISdf3D.RegisterType( BiasedSdf3D<ISdf3D, ISdf3D>.ReadRaw );
 			ISdf3D.RegisterType( CellularNoiseSdf3D.ReadRaw );
+			ISdf3D.RegisterType( FractalPerlinNoise.ReadRaw );
 		}
 
 		/// <summary>
